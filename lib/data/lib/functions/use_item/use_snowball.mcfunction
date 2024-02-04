@@ -1,1 +1,1 @@
-say you
+data modify entity @s {Tags:[]} set from entity @s Item.tag.lib
