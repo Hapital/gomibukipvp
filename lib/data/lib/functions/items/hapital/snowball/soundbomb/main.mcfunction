@@ -1,1 +1,1 @@
-execute on vehicle if entity @s[nbt={Health:0.0f}] run function lib:items/hapital/snowball/soundbomb/run
+execute on vehicle unless entity @s run function lib:items/hapital/snowball/soundbomb/run
