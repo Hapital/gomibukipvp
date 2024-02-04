@@ -1,0 +1,2 @@
+execute unless entity @s[tag=hapital.soundbomb.rided] at @s run function lib:items/hapital/snowball/soundbomb/ride 
+execute if entity @s[tag=hapital.soundbomb.rided] at @s on passengers run function lib:items/hapital/snowball/soundbomb/main
