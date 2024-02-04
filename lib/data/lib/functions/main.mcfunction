@@ -3,4 +3,4 @@
 
 execute as @a at @s run function lib:player
 
-execute as @e[type=!player] at @s run function lib:entity
+execute as @e[type=!player] at @s run function lib:entities/main
