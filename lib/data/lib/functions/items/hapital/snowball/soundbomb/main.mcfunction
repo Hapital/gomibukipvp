@@ -1,1 +1,1 @@
-execute on vehicle unless entity @s run function lib:items/hapital/snowball/soundbomb/run
+execute at @s unless entity @e[type=snowball,scores={lib.hapital.Itemid=1},distance=..0.1,sort=nearest,limit1] run function lib:items/hapital/snowball/soundbomb/run
