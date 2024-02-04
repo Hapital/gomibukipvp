@@ -11,3 +11,6 @@ tp @s ^ ^ ^0.25
 scoreboard players add @s lib.tomato_kirai.single_shot_rifle.moveCount 1
 execute if score @s lib.tomato_kirai.single_shot_rifle.moveCount matches ..22 positioned as @s run function lib:entities/tomato_kirai/single_shot_rifle_bullet/move
 scoreboard players reset @s lib.tomato_kirai.single_shot_rifle.moveCount
+
+particle crit ~ ~ ~ 0.0 0.0 0.0 0.25 1 force @a
+playsound ui.stonecutter.take_result player @a ~ ~ ~ 0.2 2
