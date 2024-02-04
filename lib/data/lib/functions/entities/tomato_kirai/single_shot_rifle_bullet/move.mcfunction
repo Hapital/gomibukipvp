@@ -6,8 +6,8 @@ execute unless entity @s[tag=TomatoKirai.IsInShooter] as @e[dx=0,type=!area_effe
 
 execute unless block ^ ^ ^ air run kill @s
 
-tp @s ^ ^ ^0.25
+tp @s ^ ^ ^0.2
 
 scoreboard players add @s lib.tomato_kirai.single_shot_rifle.moveCount 1
-execute if score @s lib.tomato_kirai.single_shot_rifle.moveCount matches ..22 positioned as @s run function lib:entities/tomato_kirai/single_shot_rifle_bullet/move
+execute if score @s lib.tomato_kirai.single_shot_rifle.moveCount matches ..20 positioned as @s run function lib:entities/tomato_kirai/single_shot_rifle_bullet/move
 scoreboard players reset @s lib.tomato_kirai.single_shot_rifle.moveCount
