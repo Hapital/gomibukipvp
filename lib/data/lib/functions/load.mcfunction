@@ -18,6 +18,11 @@ scoreboard objectives add lib.tomato_kirai.single_shot_rifle.cooltime dummy
 scoreboard objectives add lib.tomato_kirai.single_shot_rifle.moveCount dummy
 
 
-## 
+## random
+scoreboard objectives add lib.random dummy
 #deathtime
 scoreboard objectives add lib.deathtime dummy
+
+## deads
+scoreboard objectives add lib.death_temp deathCount
+scoreboard objectives add lib.death deathCount {"text":"死亡回数"}

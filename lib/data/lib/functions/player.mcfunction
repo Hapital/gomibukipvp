@@ -3,6 +3,10 @@
 
 execute if score @s lib.useItem matches 1.. run function lib:use_item/use
 execute if score @s lib.useHorn matches 1.. run function lib:use_item/use_horn
+
+## 死亡時アイテム再配布
+execute if score @s lib.death_temp matches 1.. run function lib:dead
+
 # ショット！(未使用)
 execute if entity @s[tag=TomatoKirai.Shot] run scoreboard players add @s lib.tomato_kirai.shotTag 1
 execute if score @s lib.tomato_kirai.shotTag matches 3.. run tag @s remove TomatoKirai.Shot
