@@ -5,4 +5,4 @@
 
 scoreboard players reset @s lib.useHorn
 
-execute if entity @s[nbt={SelectedItem:{tag:{lib:{hapital:{id:1,horn:syunkankengen_tomatoking}}}}}] run function lib:items/ha/horn/syunkankengen_tomatoking/
+execute if entity @s[nbt={SelectedItem:{tag:{lib:{hapital:{id:1,horn:syunkankengen_tomatoking}}}}}] run function lib:items/hapital/horn/syunkankengen_tomaking/
