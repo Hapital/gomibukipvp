@@ -1,6 +1,6 @@
 #> lib:entities/tomato_kirai/tomato_bomb/explosion
 
-execute as @e[distance=..4.5] run damage @s 11 explosion by @e[distance=..0.1,sort=nearest,limit=1]
+execute as @e[distance=..4.5,type=!item,nbt=!{Invulnerable:1b}] run damage @s 11 explosion by @e[distance=..0.1,sort=nearest,limit=1]
 
 particle block redstone_block ~ ~0.5 ~ 1 1 1 0 50 normal @a
 particle block red_wool ~ ~0.5 ~ 1 1 1 0 50 normal @a
