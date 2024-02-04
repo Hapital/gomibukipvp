@@ -1,3 +1,28 @@
 {
-    "lib:otobakudan":{"category": "master","sounds": [{"name": "sounds/hapital/otobakudann.ogg"}]}
-    }
+    "hapital.otobakudan": {
+           "sounds": [
+                   "hapital/otobakudan"
+           ]
+    },
+         "se.fart1": {
+           "sounds": [
+                   "se/fart1"
+           ]
+    },
+    "se.fart2": {
+       "sounds": [
+               "se/fart2"
+       ]
+},
+"se.amogos": {
+       "sounds": [
+               "se/amogos"
+       ]
+},
+"sinsan.katiminya": {
+      "sounds": [
+              "sinsan/katimiinya"
+      ]
+}
+
+}
