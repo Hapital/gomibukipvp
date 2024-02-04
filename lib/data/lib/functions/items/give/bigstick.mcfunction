@@ -1,0 +1,1 @@
+give @p stick{display:{Name:'{"text":"デカい棒","color":"white","bold":false,"italic":false}'},HideFlags:255,CustomModelData:1,Enchantments:[{id:"minecraft:knockback",lvl:55s}]

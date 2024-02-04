@@ -5,3 +5,5 @@ execute at @s positioned ^3 ^ ^-5 run scoreboard players set @e[tag=tomaking,dis
 execute at @s positioned ^3 ^ ^-5 run tp @e[tag=tomaking,distance=..0.1] ~ ~ ~ ~180 ~
 execute positioned ^3 ^ ^-5 run particle poof ~ ~10 ~ 2 3 2 1 1000
 execute as @a[distance=0.01..] at @s facing entity @e[type=area_effect_cloud,tag=tomaking_lookatme] feet run tp @s ~ ~ ~ ~ ~
+
+execute as @a[distance=0.01..] at @s run tellraw @a [{"text":"<"},{"selector":"@p"},{"text":">"},{"text":" なんて美しいんだ。。。"}]
