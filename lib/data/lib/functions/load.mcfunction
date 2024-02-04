@@ -11,5 +11,6 @@ scoreboard objectives remove tomato_kirai.single_shot_rifle.cooltime
 
 
 scoreboard objectives add lib.tomato_kirai.tomato_bomb.timer dummy
+scoreboard objectives add lib.tomato_kirai.shotTag dummy
 scoreboard objectives add lib.tomato_kirai.single_shot_rifle.cooltime dummy
 scoreboard objectives add lib.tomato_kirai.single_shot_rifle.moveCount dummy
