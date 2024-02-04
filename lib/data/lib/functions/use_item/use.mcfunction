@@ -5,4 +5,4 @@
 
 scoreboard players reset @s lib.useItem
 
-say a
+execute unless data entity @s SelectedItem.tag.lib run playsound ui.button.click master @s ~ ~ ~ 1 2
