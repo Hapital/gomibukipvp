@@ -1,6 +1,6 @@
 #> lib:entities/tomato_kirai/single_shot_rifle_bullet/damage
 
-damage @s 19 player_attack by @e[tag=TomatoKirai.SingleShotRifleBullet,sort=nearest,limit=1]
+damage @s 5 player_attack by @e[tag=TomatoKirai.SingleShotRifleBullet,sort=nearest,limit=1]
 
 tag @s add TomatoKirai.Hit
 
