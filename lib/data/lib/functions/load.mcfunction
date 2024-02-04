@@ -4,3 +4,6 @@
 scoreboard objectives add lib.useItem used:warped_fungus_on_a_stick {"text": "使用検知"}
 
 scoreboard objectives add lib.hapital.Itemid used:warped_fungus_on_a_stick {"text": "アイテムがエンティティになるやつにつけるタグをスコアにするときに使うやつ"}
+
+scoreboard objectives add tomato_kirai.tomato_bomb.timer dummy
+
