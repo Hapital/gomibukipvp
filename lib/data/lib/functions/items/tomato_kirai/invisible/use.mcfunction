@@ -6,8 +6,8 @@ item replace entity @s weapon.mainhand with air
 
 effect give @s invisibility 3 0 true
 effect give @s speed 3 3 true
-effect give @s weakness 3 127
-effect give @s resistance 3 127
+effect give @s weakness 3 127 true
+effect give @s resistance 3 127 true
 
 playsound block.portal.trigger player @a ~ ~ ~ 1 1
 
