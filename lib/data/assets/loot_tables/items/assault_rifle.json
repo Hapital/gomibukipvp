@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "アサルトライフル",
+                "color": "green",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "アンコモン",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "扱いやすいアサルトライフル",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "性能:",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 3.0 攻撃力",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 5.0 連射速度",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Asset:{id:\"assault_rifle\",gid:2,gun:1b,Cooltime:{shooting:8,switching:20},burst_time:8,ammo:[0,28],reload_time:40,Damage:{body:3.0,head:6.0},Bullet:{life:6,speed:40,descent:0.002,accuracy_x:[-150,150],accuracy_y:[-150,150]}},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-100,Operation:0,UUID:[I;1845303027,-569619408,-1626128569,-1914020552]}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

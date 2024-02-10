@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "ピースキーパー",
+                "color": "aqua",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "レア",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "一撃が重いショットガン",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "性能:",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 2.0 攻撃力",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 2.0 連射速度",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Asset:{id:\"shotgun\",gid:4,gun:1b,Cooltime:{shooting:10,switching:20},burst_time:0,ammo:[0,4],reload_time:50,Damage:{body:2,head:4},Bullet:{life:6,speed:15,descent:0.005,accuracy_x:[-90,90],accuracy_y:[-90,90]}},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-100,Operation:0,UUID:[I;1845303027,-569619408,-1626128569,-1914020552]}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
