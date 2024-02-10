@@ -1,0 +1,3 @@
+#> lib:items/give/16_fire_pattern_pod
+
+give @p decorated_pot{display:{Name:'{"text":"Decorated Pot decorated with fire pattern","color":"white","bold":false,"italic":false}'},HideFlags:33,Enchantments:[{id:"minecraft:sharpness",lvl:5s},{id:"minecraft:fire_aspect",lvl:3s}],BlockEntityTag:{sherds:["minecraft:burn_pottery_sherd","minecraft:burn_pottery_sherd","minecraft:burn_pottery_sherd","minecraft:burn_pottery_sherd"]}} 1
