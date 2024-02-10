@@ -13,3 +13,5 @@ execute as @e[tag=TomatoKirai.Hit] run tag @s remove TomatoKirai.Hit
 scoreboard players remove @e[scores={lib.deathtime=1..}] lib.deathtime 1
 execute as @e[scores={lib.deathtime=0}] run function lib:deathtime
 
+# Guns
+function lib:gun/tick

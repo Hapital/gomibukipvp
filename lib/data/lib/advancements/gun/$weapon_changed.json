@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "lib:gun/selecting_gun"
+          }
+        ],
+        "items": [
+          {
+            "nbt": "{Asset:{gun:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "lib:gun/weapon_changed/changed"
+  }
+}

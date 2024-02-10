@@ -30,3 +30,6 @@ scoreboard objectives add lib.death deathCount {"text":"死亡回数"}
 ## itemids
 scoreboard objectives add lib.itemid dummy
 scoreboard objectives add lib.itemid_-1 dummy
+
+# Guns
+function lib:gun/load
