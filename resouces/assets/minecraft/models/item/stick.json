@@ -1,10 +1,10 @@
 {
 	"parent": "item/generated",
     "textures": {
-        "layer0": "item/snowball"
+        "layer0": "item/stick"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "example:item/tyou"},
+		{ "predicate": {"custom_model_data": 4}, "model": "example:item/tyou"},
 		{ "predicate": {"custom_model_data": 2}, "model": "example:item/solemn_up"},
 		{ "predicate": {"custom_model_data": 3}, "model": "example:item/solemn_2up"}
 	]
