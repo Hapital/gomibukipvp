@@ -52,7 +52,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 6.0 攻撃力",
+                  "text": " 7.0 攻撃力",
                   "color": "dark_green",
                   "bold": false,
                   "italic": false
@@ -67,7 +67,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Asset:{id:\"revolver\",gid:3,gun:1b,Cooltime:{shooting:10,switching:10},burst_time:0,ammo:[0,6],reload_time:40,Damage:{body:6,head:12},Bullet:{life:6,speed:15,descent:0.005,accuracy_x:[-120,120],accuracy_y:[-120,120]}},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-100,Operation:0,UUID:[I;1845303027,-569619408,-1626128569,-1914020552]}]}"
+              "tag": "{Asset:{id:\"revolver\",gid:3,gun:1b,Cooltime:{shooting:10,switching:10},burst_time:0,ammo:[0,6],reload_time:40,Damage:{body:7,head:14},Bullet:{life:6,speed:15,descent:0.005,accuracy_x:[-120,120],accuracy_y:[-120,120]}},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-100,Operation:0,UUID:[I;1845303027,-569619408,-1626128569,-1914020552]}]}"
             }
           ]
         }
