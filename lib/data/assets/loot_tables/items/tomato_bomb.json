@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "トマトボム",
+                "color": "red",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{lib:{tomato_kirai:{id:\"tomato_bomb\"}},id:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
