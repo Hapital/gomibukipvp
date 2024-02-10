@@ -1,0 +1,38 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "lib.gun.shootingCooltime": {
+            "min": 1
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "lib.gun.switchingCooltime": {
+            "min": 1
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "lib.gun.ammo": {
+          "min": 1
+        }
+      }
+    }
+  ]
+}
