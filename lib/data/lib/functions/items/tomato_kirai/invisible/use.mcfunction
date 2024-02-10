@@ -1,6 +1,6 @@
 #> lib:items/tomato_kirai/invisible/use
 
-scoreboard players set @s lib.tomato_kirai.invisible.timer 60
+scoreboard players set @s lib.tomato_kirai.invisible.timer 80
 
 item replace entity @s weapon.mainhand with air
 
