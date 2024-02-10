@@ -16,7 +16,7 @@ scoreboard objectives add lib.tomato_kirai.tomato_bomb.timer dummy
 scoreboard objectives add lib.tomato_kirai.shotTag dummy
 scoreboard objectives add lib.tomato_kirai.single_shot_rifle.cooltime dummy
 scoreboard objectives add lib.tomato_kirai.single_shot_rifle.moveCount dummy
-
+scoreboard objectives add lib.tomato_kirai.invisible.timer dummy
 
 ## random
 scoreboard objectives add lib.random dummy
