@@ -11,15 +11,63 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "DEMO_GUN",
-                "color": "white",
+                "text": "デモ銃",
+                "color": "gold",
                 "bold": false,
                 "italic": false
               }
             },
             {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "レジェンダリー",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "テストのために制作されたぶっ壊れ武器",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "性能:",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 5.0 攻撃力",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 10.0 連射速度",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{Asset:{id:\"demo_gun\",gid:1,gun:1b,Cooltime:{shooting:10,switching:10},burst_time:5,ammo:[0,30],reload_time:20,Damage:{body:2.0,head:4.0},Bullet:{life:4,speed:30,descent:0.005,accuracy_x:[-100,100],accuracy_y:[-100,100]}},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-100,Operation:0,UUID:[I;1845303027,-569619408,-1626128569,-1914020552]}]}"
+              "tag": "{Asset:{id:\"demo_gun\",gid:1,gun:1b,Cooltime:{shooting:10,switching:10},burst_time:5,ammo:[0,30],reload_time:20,Damage:{body:5.0,head:7.5},Bullet:{life:4,speed:50,descent:0.001,accuracy_x:[-50,50],accuracy_y:[-50,50]}},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-50,Operation:0,UUID:[I;1845303027,-569619408,-1626128569,-1914020552]}]}"
             }
           ]
         }
