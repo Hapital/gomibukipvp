@@ -5,6 +5,9 @@
 #execute unless score @s lib.gun.rid2 = @s lib.gun.rid run function lib:gun/weapon_changed/changed
 #execute if score @s lib.gun.rid = @s lib.gun.ridLastTime run function lib:gun/selected/rid/gen
 
+# UID
+execute unless score @s lib.gun.uid matches 1.. run function lib:gun/gen_uid/gen
+
 
 # 選択スロット番号
 execute unless score @s lib.gun.selectedItemSlot2 = @s lib.gun.selectedItemSlot if predicate lib:gun/has_gun_in_mainhand run function lib:gun/weapon_changed/changed

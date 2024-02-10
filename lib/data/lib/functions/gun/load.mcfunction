@@ -16,6 +16,7 @@ scoreboard objectives add lib.gun.burstTimer dummy
 scoreboard objectives add lib.gun.ammo dummy
 scoreboard objectives add lib.gun.ammoMax dummy
 scoreboard objectives add lib.gun.reloadTimer dummy
+scoreboard objectives add lib.gun.uid dummy
 
 #scoreboard objectives add lib.gun.recoil dummy
 #scoreboard objectives add lib.gun.recoilCurrent dummy

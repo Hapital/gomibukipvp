@@ -15,7 +15,7 @@ execute store result score @s lib.gun.bulletLife run data get entity @p Selected
 scoreboard players operation @s lib.gun.bulletLifeHalf = @s lib.gun.bulletLife
 scoreboard players operation @s lib.gun.bulletLifeHalf /= $ lib.gun.bulletLifeHalf
 
-scoreboard players operation @s lib.gun.bulletOwner = @p core.player.uid
+scoreboard players operation @s lib.gun.bulletOwner = @p lib.gun.uid
 
 data modify entity @s Rotation set from entity @p Rotation
 
