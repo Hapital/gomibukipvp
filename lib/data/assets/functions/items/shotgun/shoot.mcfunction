@@ -8,5 +8,5 @@ execute positioned ^ ^-0.25 ^ run function assets:items/shotgun/shoot2
 
 function assets:items/shotgun/shoot3
 
-playsound entity.generic.explode player @a ~ ~ ~ 1 2
+playsound entity.generic.explode player @a ~ ~ ~ 0.7 2
 playsound item.shield.break player @a ~ ~ ~ 1 2
