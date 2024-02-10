@@ -9,6 +9,6 @@ execute if entity @s[tag=TomatoKirai.TomatoBomb] run function lib:entities/tomat
 execute if entity @s[tag=TomatoKirai.SingleShotRifleBullet] run function lib:entities/tomato_kirai/single_shot_rifle_bullet/main
 
 # 釣り竿
-execute as @e[type=fishing_bobber] at @s run function lib:entities/hapital/fishingbob
+execute if entity @s[type=fishing_bobber] as @s at @s run function lib:entities/hapital/fishingbob
 # hapitalid1以上のaec
-execute as @e[type=area_effect_cloud,scores={lib.hapital.Itemid=1..}] at @s run function lib:items/aec_main
+execute as @s[type=area_effect_cloud,scores={lib.hapital.Itemid=1..}] at @s run function lib:items/aec_main
