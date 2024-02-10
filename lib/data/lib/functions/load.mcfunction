@@ -26,3 +26,7 @@ scoreboard objectives add lib.deathtime dummy
 ## deads
 scoreboard objectives add lib.death_temp deathCount
 scoreboard objectives add lib.death deathCount {"text":"死亡回数"}
+
+## itemids
+scoreboard objectives add lib.itemid dummy
+scoreboard objectives add lib.itemid_-1 dummy
